@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #172c2e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.7rem;
+            color: #0ba891b8;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            background: #2a00b3;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            transition: 0.3s;
+            background-color: #16df7b;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #f4f4f4;
+            height: 80vh;
+            text-align: center;
+            padding: 1rem;
+            background-image: url(images/background.jpg);
+            background-size: cover;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-top: 4rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 77px;
+            color: #333;
+        }
+
+        .hero button {
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            margin-top: 45px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .hero button:hover {
+            background: #0056b3;
+        }
+        .about-us{
+            text-align: left;
+            background-color: #bdbdc2;
+            height: 300px;
+            width: 1500px;;
+            color: #1f0404;
+           
+           
+        }
+        .about-us img{
+            background-size: cover;
+            margin-left: 700px;
+            width: 300px;
+            height: 200px;
+            margin-top: 0px;
+            margin-bottom: 34px;
+        }
+        .about-us p {
+            font-family:Arial, Helvetica, sans-serif;
+             font-size: 1rem; 
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .feature {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Your Journey Begins Here</h2>
+    <p>Explore our amazing platform designed to help you achieve your goals.</p>
+    <button>Get Started</button>
+</section>
+<section class="about-us">
+    <h2><b>About Us</b></h2>
+    <p>Hello,we are online car service center and we are popular in major parts of the world.<br>We are 
+        dealing with many customers across the world from 15 years.
+    </p>
+    <img src="images/person.jpg" alt="person">
+</section>
+
+<section class="features">
+    <div class="feature">
+        <h3>Tyre change</h3>
+        <p> We care car and its tyres also to let you drive safe.</p>
+        <img src="images/tyre.jpg">
+    </div>
+    <div class="feature">
+        <h3>Car Wash</h3>
+        <p>We offer car wash services at reasonable prices.</p>
+        <img src="images/carwash.jpg"height="200px"width="300px" alt="car wash">
+    </div>
+    <div class="feature">
+        <h3>Repair</h3>
+        <p>We offer repair services at your affordable cost .</p>
+        <img src="images/repair.jpg"width="300px"height="200px" alt="repair">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 CarRepair Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
+    
